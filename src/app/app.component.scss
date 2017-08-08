@@ -11,7 +11,7 @@ md-sidenav-container {
 
 .topbar {
     background: #8EA478;
-    padding: 20px;
+    padding: 6px 20px;
     text-align: right;
     height: 50px;
     border-bottom: 3px solid #6D8655;
@@ -36,6 +36,12 @@ md-sidenav-container {
 
 .open-nav-button {
     color: white;
+
+    .fa {
+        position: relative;
+        top: -1px;
+        margin-right: 4px;
+    }
 }
 
 

@@ -21,6 +21,16 @@
       "avatar": "boer3.jpg",
       "lat": 55.678418,
       "lng": 4.809007
+    },
+    {
+      "name": "De Greftenhoeve",
+      "avatar": "",
+      "description": "De Greftenhoeve is een blauwe bessenkwekerij, gespecialiseerd in het kweken van blauwe bessen voor de verse consumptie. Het grootste deel van de vers geplukte bessen gaat naar de veiling Fruitmasters in Geldermalsen, een deel is voor de verkoop aan huis.",
+      "address": "Greftenweg 16, 7671 PC Vriezenveen",
+      "products": ["Fruit", "Groente", "Brood", "Salade", "Mosterd", "Jam", "Zuivel", "Sap"],
+      "open": "Vanaf 15 juni t/m 1 okt. is de boerenwinkel elke dag (m.u.v. zondag) van 9 tot 5 uur geopend, buiten het plukseizoen vanaf 1 okt t/m 15 juni zijn we elke maandag en woensdag van 10.00 tot 17.00 uur geopend.",
+      "lat": 52.429628,
+      "lng": 6.673552
     }
   ]
 }

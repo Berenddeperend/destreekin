@@ -18,8 +18,7 @@ import { LatLngBounds, LatLngBoundsLiteral } from '@agm/core/map-types';
 export class HomeComponent implements OnInit {
   viewLat: number = 52.239338;
   viewLng: number = 6.828003;
-  // zoom = 11;
-  zoom = 3;
+  zoom = 9;
   //
   // fitBounds = {
   //   east: 5.311666,

@@ -1,24 +1,33 @@
-<p>Ja hoor homepage template.</p>
-
-<!--<input type="text" class="searchbar" placeholder="Zoek op locatie...">-->
-
-<sebm-google-map
-        [latitude]="viewLat"
-        [longitude]="viewLng"
-        (zoomChange)="testFunction()">
+<div class="home-container">
 
 
-    <sebm-google-map-marker
-        *ngFor="let marker of markers"
-        [latitude]="marker.lat"
-        [longitude]="marker.lng">
+    <input type="text" class="searchbar" placeholder="Zoek op locatie...">
 
-        <sebm-google-map-info-window [disableAutoPan]="true">
-            <p>{{marker.description}}</p>
-            <div class="info">Hier wat extra info</div>
-            <button md-button>Click me!</button>
-        </sebm-google-map-info-window>
+    <agm-map
+            [latitude]="viewLat"
+            [longitude]="viewLng"
+            [zoom]="zoom"
+            [disableDefaultUI]="true"
+            [streetViewControl]="false"
+            [gestureHandling]="greedy"
+    >
+    <!--<agm-map-->
+        <!--[fitBounds]="fitBounds"-->
+        <!--[disableDefaultUI]="true"-->
+        <!--[streetViewControl]="false"-->
+        <!--[gestureHandling]="greedy"-->
+    <!--&gt;-->
 
-    </sebm-google-map-marker>
-</sebm-google-map>
+
+        <agm-marker
+            *ngFor="let marker of sellers?.sellers"
+            [latitude]="marker.lat"
+            [longitude]="marker.lng"
+            (markerClick)="openDialog(marker)"
+        >
+
+        </agm-marker>
+    </agm-map>
+
+</div>
 

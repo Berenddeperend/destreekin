@@ -1,0 +1,26 @@
+{
+  "sellers": [
+    {
+      "name": "Boer 1",
+      "avatar": "boer1.jpg",
+      "description": "Boer Klaas is een boer die hier ergens woont en toffe dingen doet. Hier staat een omschrijving van deze gast.",
+      "products": ["Kaas", "Aardappelen"],
+      "address": "Haaksbergerstraat 174 Enschede",
+      "contact": "0612345678",
+      "lat": 51.678418,
+      "lng": 7.809007
+    },
+    {
+      "name": "Boer 2",
+      "avatar": "boer2.jpg",
+      "lat": 53.678418,
+      "lng": 2.809007
+    },
+    {
+      "name": "Boer 3",
+      "avatar": "boer3.jpg",
+      "lat": 55.678418,
+      "lng": 4.809007
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 md-sidenav {
-    max-width: 200px;
-    padding: 40px;
+    //max-width: 200px;
+    min-width: 200px;
     box-shadow: 0px 0px 45px rgba(0,0,0, 0.5);
 }
 
@@ -10,9 +10,28 @@ md-sidenav-container {
 }
 
 .topbar {
-    background: gray;
+    background: #8EA478;
     padding: 20px;
     text-align: right;
+    height: 50px;
+    border-bottom: 3px solid #6D8655;
+
+}
+
+.sidebar-item {
+    display: block;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+
+    &:hover {
+        background: #f7f7f7;
+    }
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .open-nav-button {

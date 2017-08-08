@@ -4,9 +4,23 @@
   display: block;
   width: 80%;
   height: 50px;
-  margin: 50px 10% 0;
+  margin: 25px 10% 0;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Zilla Slab', serif;
+
+  border: none;
+  box-shadow: 0px 8px 20px rgba(0,0,0, 0.3);
+
+
 }
 
 .sebm-google-map-container {
-  height: 300px;
+  //position: fixed;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.home-container {
+  //min-height: 100vh;
 }

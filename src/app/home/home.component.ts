@@ -1,4 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MdDialog, MdDialogRef } from '@angular/material';
+import { SellerDetailComponent } from "../seller-detail/seller-detail.component";
+import { HttpClient } from "@angular/common/http";
+// import { LatLngBounds, LatLngBoundsLiteral, MapTypeStyle } from '../services/google-maps-types';
+import { LatLngBounds, LatLngBoundsLiteral } from '@agm/core/map-types';
+
+
 
 
 @Component({
@@ -9,38 +16,50 @@ import {Component, OnInit} from '@angular/core';
 })
 
 export class HomeComponent implements OnInit {
-  viewLat: number = 51.678418;
-  viewLng: number = 7.809007;
-  zoom = 12;
+  viewLat: number = 52.239338;
+  viewLng: number = 6.828003;
+  // zoom = 11;
+  zoom = 3;
+  //
+  // fitBounds = {
+  //   east: 5.311666,
+  //   north: 4.92019,
+  //   south: 5.7617269,
+  //   west: 8.43541
+  // };
 
-  markers = [
-    {
-      name: "Adolf",
-      description: "Boer Klaas is een boer die hier ergens woont en toffe dingen doet. Hier staat een omschrijving van deze gast.",
-      products: ['Kaas', 'Aardappelen'],
-      address: "Haaksbergerstraat 174 Enschede",
-      contact: "0612345678",
-      lat: 51.678418,
-      lng: 7.809007
-    },
-    {
-      name: "Bdolf",
-      lat: 53.678418,
-      lng: 2.809007
-    },
-    {
-      name: "Cdolf",
-      lat: 55.678418,
-      lng: 4.809007
-    }
-  ];
+  sellers;
 
-  ngOnInit() {
-    this.setCurrentPosition();
+  constructor(
+      public dialog: MdDialog,
+      private http: HttpClient
+  ) {
   }
 
-  testFunction(){
-    console.log('this is a test function');
+  ngOnInit() {
+    // this.setCurrentPosition();
+      this.http.get('assets/data/sellers.json').subscribe(data => {
+        this.sellers = data;
+
+        // this.fitBounds;
+
+
+
+        for(let seller of this.sellers.sellers) {
+          console.log(seller['lat']);
+        }
+
+        console.log(this.sellers.sellers);
+    });
+
+  }
+
+
+  openDialog(marker) {
+      let dialogRef = this.dialog.open(SellerDetailComponent, {
+        data: marker,
+        panelClass: 'berend'
+      });
   }
 
   private setCurrentPosition() {

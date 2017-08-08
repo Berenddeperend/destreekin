@@ -1,0 +1,48 @@
+.card {
+  //position: relative;
+}
+
+.bgimage {
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  //border: 1px solid red;
+  //height: 40px;
+  //width: 100px;
+}
+
+
+.datablock {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+  position: relative;
+}
+
+.fa {
+  //position: absolute;
+  position: relative;
+  top: -5px;
+  color: white;
+  float: left;
+  margin-right: 20px;
+  background: #8EA478;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 21px;
+  padding: 4px 0;
+
+  &.fa-shopping-basket {
+    font-size: 18px;
+    padding: 6px 0;
+  }
+}
+
+::ng-deep .berend {
+  //border: 1px solid green;
+}
+
+.seller-detail-avatar {
+  max-width: 300px;
+}

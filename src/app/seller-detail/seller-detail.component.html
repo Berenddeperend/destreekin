@@ -1,0 +1,51 @@
+<md-dialog-content>
+    <div class="card">
+        <div class="bgimage">
+            <img class="seller-detail-avatar" src="assets/img/{{data.avatar}}" alt="">
+        </div>
+
+        <h2>{{data.name}}</h2>
+
+        <div class="datablock">
+
+            <h3 class="datablock-title">
+                <i class="fa fa-user" aria-hidden="true"> </i>
+                Over {{data.name}}
+            </h3>
+
+
+            <div class="datablock-content">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magn</p>
+            </div>
+        </div>
+
+
+        <div class="datablock" *ngIf="data.products">
+            <h3 class="datablock-title">
+                <i class="fa fa-shopping-basket" aria-hidden="true"> </i>
+                Producten
+            </h3>
+            <ul>
+                <li *ngFor="let product of data.products">
+                    {{product}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="datablock">
+            <div class="icon icon--address">
+
+            </div>
+
+            <h3 class="datablock-title">
+                <i class="fa fa-map-marker" aria-hidden="true"> </i>
+                Adres
+            </h3>
+
+            <p>{{data.address}}</p>
+        </div>
+
+    </div>
+
+</md-dialog-content>
+

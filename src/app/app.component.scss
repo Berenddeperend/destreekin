@@ -1,0 +1,25 @@
+md-sidenav {
+    max-width: 200px;
+    padding: 40px;
+    box-shadow: 0px 0px 45px rgba(0,0,0, 0.5);
+}
+
+md-sidenav-container {
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.topbar {
+    background: gray;
+    padding: 20px;
+    text-align: right;
+}
+
+.open-nav-button {
+    color: white;
+}
+
+
+.mat-sidenav-container {
+    background: white;
+}

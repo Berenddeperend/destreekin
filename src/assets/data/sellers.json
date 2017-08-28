@@ -1,36 +1,95 @@
 {
   "sellers": [
     {
-      "name": "Boer 1",
-      "avatar": "boer1.jpg",
-      "description": "Boer Klaas is een boer die hier ergens woont en toffe dingen doet. Hier staat een omschrijving van deze gast.",
-      "products": ["Kaas", "Aardappelen"],
-      "address": "Haaksbergerstraat 174 Enschede",
-      "contact": "0612345678",
-      "lat": 51.678418,
-      "lng": 7.809007
+      "name": "Fruitboerderij Old Bleank",
+      "avatar": "",
+      "description": "In onze gezellige boerderijwinkel aan de Reimerweg 13 in Rossum hebben we elke dag een uitgebreid vers assortiment met producten van onze eigen boerderij voor je. Milieubewust verwerkt en kwaliteitsproducten met een 100% natuurlijke smaak die je onze supermarkten niet tegenkomt.",
+      "address": "Reimerweg 13 7596 NP Rossum (Ov)",
+      "products": ["Fruit", "Groente", "Brood", "Salade", "Mosterd", "Jam", "Zuivel", "Sap"],
+      "open": "Maandag 13:00 tot 17:00 uur Dinsdag 08:30 tot 18:00 uur Woensdag 08:30 tot 18:00 uur Donderdag 08:30 tot 18:00 uur Vrijdag 08:30 tot 18:00 uur Zaterdag 08:30 tot 16:00 uur. In de kersentijd: Zondag 12:00 tot 16:30 uur",
+      "lat": 52.360924,
+      "lng": 6.912289
     },
     {
-      "name": "Boer 2",
-      "avatar": "boer2.jpg",
-      "lat": 53.678418,
-      "lng": 2.809007
+      "name": "Bosbessenkwekerij La Francaise",
+      "avatar": "",
+      "description": "Aan de Kwekkeboomweg tussen Enschede en Buurse zijn eind zestiger jaren de eerste struiken aangeplant van de amerikaanse bosbes. Dit is familie van de inheemse bosbes. Inmiddels worden dit blauwe bessen genoemd, destijds nog 'bosbes'. (Vandaar onze naam 'bosbessenkwekerij'.) Midden zeventiger jaren is er een tweede veld met struiken aangeplant aan de Willemsbeekweg in Enschede. Inmiddels is dit het hoofdveld.Bij de teelt worden geen bestrijdingsmiddelen gebruikt, ook niet voor het onkruid. Er wordt beperkt gebruik gemaakt van organische meststoffen. Dit betekent dat de teelt arbeidsintensief is, maar volledig schoon en natuurzuiver.",
+      "address": "Willemsbeekweg 5, 7545 PA Enschede",
+      "products": ["Bosbessen", "Jam", "Sap", "Saus"],
+      "open":"Tijdens het plukseizoen, circa half juli tot (en met) september zijn we aan de Willemsbeekweg geopend. Op maandag tot en met vrijdag van 9.00 tot 18.00 uur. Op zaterdag van 9.00 tot 17.00 uur.",
+      "lat": 52.208054,
+      "lng": 6.849124
     },
     {
-      "name": "Boer 3",
-      "avatar": "boer3.jpg",
-      "lat": 55.678418,
-      "lng": 4.809007
+      "name": "'T Nije Eskes",
+      "avatar": "",
+      "description":"In het jaar 2000 zijn we begonnen met het maken van jam,chutney’s en vruchtensappen voor de verkoop. Dit gebeurde op kleine schaal in eigen keuken. We hebben bramen en frambozenstruiken aangeplant en aardbeienplanten op worteldoek gezet. Later is dit aangevuld met rabarberplanten en verschillende soorten bessenstruiken.",
+      "address": "Holsterheurneweg 10, 7588PR Beuningen",
+      "products": ["Jam", "Chutney", "Pasta"],
+      "open":"N.B.",
+      "lat": 52.364959,
+      "lng": 6.971839
     },
     {
       "name": "De Greftenhoeve",
       "avatar": "",
       "description": "De Greftenhoeve is een blauwe bessenkwekerij, gespecialiseerd in het kweken van blauwe bessen voor de verse consumptie. Het grootste deel van de vers geplukte bessen gaat naar de veiling Fruitmasters in Geldermalsen, een deel is voor de verkoop aan huis.",
       "address": "Greftenweg 16, 7671 PC Vriezenveen",
-      "products": ["Fruit", "Groente", "Brood", "Salade", "Mosterd", "Jam", "Zuivel", "Sap"],
+      "products": ["Blauwe", "bessen", "Sap van blauwe bessen", "Wijn", "Jam"],
       "open": "Vanaf 15 juni t/m 1 okt. is de boerenwinkel elke dag (m.u.v. zondag) van 9 tot 5 uur geopend, buiten het plukseizoen vanaf 1 okt t/m 15 juni zijn we elke maandag en woensdag van 10.00 tot 17.00 uur geopend.",
       "lat": 52.429628,
       "lng": 6.673552
+    },
+    {
+      "name": "Kruidenhuis de Vlo",
+      "avatar": "",
+      "description": "Kruidenhuis de Vlo is een gecertificeerd gecertificeerd biologisch bedrijf dat zo veel mogelijk biologisch dynamisch werkt aan de zuidpunt van de Holterberg midden tussen Rijssen en Holten.",
+      "address": "Drostendijk 2, 7462 SG Rijssen",
+      "products": ["Honing", "Bijenwas", "Kruiden", "Groente", "Eieren"],
+      "open": "Op Zaterdag middag van 12:00 tot 16:00 uur halen klanten de tevoren per mail bestelde groenten en eieren op uit het kookhuis. Het kruidenhuis is dan open voor iedereen. Wilt u ook op de maillijst om te weten welke groenten er te koop zijn?",
+      "lat": 52.298253,
+      "lng": 6.466809 
+    },
+    {
+      "name": "Erve Möllinkwoner",
+      "avatar": "",
+      "description": "Erve Möllinkwoner is al meer dan 150 jaar oud. De boerderij werd in 1858 gebouwd op het landgoed Twickel. Vroeger woonde de molenknecht van de nabijgelegen Noordmolen hier, nu is het de plek waar heerlijke boerenkaas en ambachtelijk Twents streekbier wordt gemaakt. De boerderij is ook een prachtige plek voor kaas- en bierproeverij en lunches! ",
+      "address": "Noordmolen 3, 7495 VK Ambt Delden",
+      "products": ["Kaas", "Bier"],
+      "open": "Boerderijwinkel geopend: vrijdag en zaterdag van 13.00 tot 16.00 uur",
+      "lat": 52.279430,
+      "lng": 6.713271 
+    },
+    {
+      "name": "Kaasboerderij Keuper",
+      "avatar": "",
+      "description": "Kaasboerderij Keuper is een familiebedrijf met veel kennis en liefde voor het vak. Onze ambachtelijke boerenkaas en andere zuivelproducten worden gemaakt van de melk van eigen koeien. Onze boerderij met boerderijwinkel staat in Hengevelde, aan de Goorsestraat 45.",
+      "address": "Goorsestraat 45, 7496 AC Hengevelde",
+      "products": ["Kaas", "Karnemeld", "Boter", "Yoghurt", "Vruchtenyoghurt"],
+      "open": "Donderdag en vrijdag geopend van 9.00 uur tot 18.00 uur zaterdag geopend van 9.00 uur tot 16.00 uur.",
+      "lat": 52.204916,
+      "lng": 6.625259  
+    },
+    {
+      "name": "Ijsboerderij 't Loaboerke",
+      "avatar": "",
+      "description": "Heeft u na een mooie fiets- of wandelroute in het Twentse landschap zin in een ijsje of koffie gekregen? Kom dan eens bij ons langs, waar ijs op een ambachtelijke manier wordt bereid, met verse melk van onze eigen koeien. Bij mooi weer is een zonnig terras beschikbaar om even lekker uit te rusten. Ook kunt u binnen in de oude boerderij van uw ijs of kopje koffie genieten.",
+      "address": "Duivelshofbosweg 2, 7587 PP De Lutte",
+      "products": ["Ijs"],
+      "open": "We zijn geopend van begin april t/m eind oktober. Elke dag van 10.00 tot 18.00 uur. Bij mooi weer aangepaste tijden!",
+      "lat": 52.287991,
+      "lng": 6.987417
+    },
+    {
+      "name": "De Boderie",
+      "avatar": "",
+      "description": "In 2000 zijn wij een plattelandswinkel begonnen in een gedeelte van de varkensschuur behorende bij ons pluimveebedrijf. ",
+      "address": "Markgravenweg 5, 7665 RS Albergen/Harbrinkhoek",
+      "products": ["Ijs", "Eieren", "Brood", "Groente", "Chutney", "Jam", "Wijn", "Yoghurt", "Melk", "Kaas", "Slagroom", "Boter", "Pasta"],
+      "open": "We zijn geopend van begin april t/m eind oktober. Elke dag van 10.00 tot 18.00 uur. Bij mooi weer aangepaste tijden!",
+      "lat": 52.287991,
+      "lng": 6.987417
     }
   ]
 }
+      

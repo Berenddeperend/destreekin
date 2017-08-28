@@ -4,6 +4,7 @@ import { SellerDetailComponent } from "../seller-detail/seller-detail.component"
 import { HttpClient } from "@angular/common/http";
 // import { LatLngBounds, LatLngBoundsLiteral, MapTypeStyle } from '../services/google-maps-types';
 import { LatLngBounds, LatLngBoundsLiteral } from '@agm/core/map-types';
+import {Router} from "@angular/router";
 
 
 
@@ -31,7 +32,8 @@ export class HomeComponent implements OnInit {
 
   constructor(
       public dialog: MdDialog,
-      private http: HttpClient
+      private http: HttpClient,
+      private router: Router
   ) {
   }
 
@@ -41,8 +43,6 @@ export class HomeComponent implements OnInit {
         this.sellers = data;
 
         // this.fitBounds;
-
-
 
         for(let seller of this.sellers.sellers) {
           console.log(seller['lat']);
@@ -55,10 +55,17 @@ export class HomeComponent implements OnInit {
 
 
   openDialog(marker) {
-      let dialogRef = this.dialog.open(SellerDetailComponent, {
+
+    let spacesToDashes = function(string) {
+      return string.split(' ').join('-').toLowerCase();
+    };
+
+    this.router.navigate(['/', spacesToDashes(marker.name)]);
+
+    let dialogRef = this.dialog.open(SellerDetailComponent, {
         data: marker,
         panelClass: 'berend'
-      });
+    });
   }
 
   private setCurrentPosition() {

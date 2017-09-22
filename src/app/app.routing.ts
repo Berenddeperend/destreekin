@@ -2,21 +2,19 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { SellerDetailComponent } from "./seller-detail/seller-detail.component";
 
 export const appRoutes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'home', component: HomeComponent, redirectTo: ''},
+
+  //order of routes is important!
+  { path: 'home',
+    component: HomeComponent,
+    redirectTo: '',
+  },
   { path: 'about', component: AboutComponent },
-  { path: '**', component: HomeComponent},
+  { path: '', component: HomeComponent, pathMatch: 'full' }, //nothing, or home
+  { path: '**', component: HomeComponent}, // or 404
 ];
 
 
 export const routing = RouterModule.forRoot(appRoutes);
-
-
-
-
-//
-// { path: '', redirectTo: 'home', pathMatch: 'full' },
-// { path: 'home', component: HomeComponent },
-// { path: 'about', component: AboutComponent }

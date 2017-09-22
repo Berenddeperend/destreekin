@@ -1,33 +1,20 @@
 <div class="home-container">
 
-
-    <input type="text" class="searchbar" placeholder="Zoek op locatie...">
+    <!--<input type="text" class="searchbar" placeholder="Zoek op locatie...">-->
 
     <agm-map
-            [latitude]="viewLat"
-            [longitude]="viewLng"
-            [zoom]="zoom"
-            [disableDefaultUI]="true"
-            [streetViewControl]="false"
-            [gestureHandling]="'greedy'"
-    >
-    <!--<agm-map-->
-        <!--[fitBounds]="fitBounds"-->
-        <!--[disableDefaultUI]="true"-->
-        <!--[streetViewControl]="false"-->
-        <!--[gestureHandling]="greedy"-->
-    <!--&gt;-->
-
-
+        [latitude]="viewLat"
+        [longitude]="viewLng"
+        [zoom]="zoom"
+        [disableDefaultUI]="true"
+        [streetViewControl]="false"
+        [gestureHandling]="'greedy'">
         <agm-marker
             *ngFor="let marker of sellers?.sellers"
             [latitude]="marker.lat"
             [longitude]="marker.lng"
-            (markerClick)="openDialog(marker)"
-        >
-
+            (markerClick)="openDialog(marker)">
         </agm-marker>
     </agm-map>
 
 </div>
-

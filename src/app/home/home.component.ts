@@ -4,9 +4,8 @@ import { SellerDetailComponent } from "../seller-detail/seller-detail.component"
 import { HttpClient } from "@angular/common/http";
 // import { LatLngBounds, LatLngBoundsLiteral, MapTypeStyle } from '../services/google-maps-types';
 import { LatLngBounds, LatLngBoundsLiteral } from '@agm/core/map-types';
-import {Router} from "@angular/router";
-
-
+import { Router } from "@angular/router";
+import { Location } from '@angular/common';
 
 
 @Component({
@@ -33,22 +32,26 @@ export class HomeComponent implements OnInit {
   constructor(
       public dialog: MdDialog,
       private http: HttpClient,
-      private router: Router
+      private router: Router,
+      private location: Location
   ) {
   }
 
   ngOnInit() {
     // this.setCurrentPosition();
+
+    console.log('ngoninit of HomeComponent');
+
       this.http.get('assets/data/sellers.json').subscribe(data => {
         this.sellers = data;
 
         // this.fitBounds;
 
         for(let seller of this.sellers.sellers) {
-          console.log(seller['lat']);
+          // console.log(seller['lat']);
         }
 
-        console.log(this.sellers.sellers);
+        // console.log(this.sellers.sellers);
     });
 
   }
@@ -60,7 +63,7 @@ export class HomeComponent implements OnInit {
       return string.split(' ').join('-').toLowerCase();
     };
 
-    this.router.navigate(['/', spacesToDashes(marker.name)]);
+    this.location.go('/verkoper', spacesToDashes(marker.name));
 
     let dialogRef = this.dialog.open(SellerDetailComponent, {
         data: marker,

@@ -89,6 +89,196 @@
       "open": "We zijn geopend van begin april t/m eind oktober. Elke dag van 10.00 tot 18.00 uur. Bij mooi weer aangepaste tijden!",
       "lat": 52.287991,
       "lng": 6.987417
+    },
+    {
+      "name": "Korenmolden Windlust",
+      "avatar": "",
+      "description": "Korenmolen Windlust in het Overijsselse Radewijk (1877) is nog volop in gebruik. Dagelijks malen we meel voor ambachtelijke bakkerijen en thuisbakkers in heel Nederland. En ook particulieren kunnen bij ons terecht. Voor diverse soorten meel, bakmixen voor brood, pannenkoeken, cake en koek én voor ovenvers gebakken brood en banket. Benieuwd? Kom gerust eens kijken bij de molen en in onze winkel. U bent bijzonder welkom",
+      "address": "Radewijkerweg 19, 7791 RJ Radewijk",
+      "products": ["Meel", "Bloem", "Brood", "Broodmix", "Pannekoeken", "Poffertjes", "Cake/taart/koekmixen"],
+      "open": "vrijdag 8.30 - 14.00 uur en zaterdag 8.30 - 14.00 uur. De molen is vanaf het voorjaar van 2016 ook weer op afspraak te bezichtigen. Onze molenaar vertelt u graag alles over de historie en het molenaarsvak",
+      "lat": 52.578280,
+      "lng": 6.702218
+    },
+    {
+      "name": "Keuper Pasta",
+      "avatar": "",
+      "description": "Keuper is een nog jong bedrijf waar van kwalitatief hoogwaardige producten op natuurlijke basis (h)eerlijke pasta en deegwaren worden gemaakt. Hierdoor is een nieuw streekproduct (afkomstig uit Twente) ontstaan.",
+      "address": "Goorstestraat 45, 7496 AC Hengevelde",
+      "products": ["Pasta"],
+      "open": "Donderdag en vrijdag geopend van 9.00 uur tot 18.00 uur en zaterdag geopend van 9.00 uur tot 16.00 uur.",
+      "lat": 52.204916,
+      "lng": 6.625259
+    },
+    {
+      "name": "Kruimelboerderij Koelant",
+      "avatar": "",
+      "description": "Leuk dat je hier bent! Kruimelboerderij Koelant is de boerderij van Ben, Pauline, Rolf en Petra. Een dikke 80 jaar geleden zette opa Hannes zijn schop in de grond, ontgon de heide en bouwde een huis. Een nieuwe boerderij kreeg plek in het landschap. De veestapel groeide van 2 naar 12 melkkoeien. En daar bleef het bij tot aan de dag van vandaag. De vertrouwde manier van werken, hetzelfde vee, van vader op zoon naar de volgende generatie. Met plezier behouden we de koeinhouderij en het omliggende land, en doen we ons best om mooie, lekkere boerenkazen te maken. Mjummie!",
+      "address": "Beuningerstraat 35, 7588 RG Beuningen",
+      "products": ["Kaas"],
+      "open": "Koelant is open op woensdag, vrijdag en zaterdag van 10.00 tot 18.00 uur",
+      "lat": 52.337357,
+      "lng": 7.007423
+    },
+    {
+      "name": "BOERgondisch",
+      "avatar": "",
+      "description": "Het huidige bedrijfspand staat op de monumentenlijst en Erve Elferman is een officieel landgoed. De boerderij beschikt over een ambachtelijke slagerij met eigen rijpkamer en een boerderijkeuken waar diverse vleesgerechten worden bereid en verpakt. Het Dinkeldalvlees van Erve Elferman is van onbetwiste topkwaliteit. Precies zoals rundvlees moet zijn; eerlijk en gezond. Op de juiste manier bereid, wordt eten weer authentiek genieten!",
+      "address": "Stroothuizerweg 9, 7591 NB  DENEKAMP",
+      "products": ["Rundvlees"],
+      "open": "Woensdag 12:00 - 17:30 uur, Donderdag en vrijdag: 09.30 - 17.30 uur, Zaterdag: 09.30 - 16.30 uur",
+      "lat": 52.369122,
+      "lng": 7.014796
+    },
+    {
+      "name": "Vleesbedrijf Kleinsman",
+      "avatar": "",
+      "description": "Vanaf 1999 zijn wij begonnen met het verkopen van vlees op markten in Twente. Daarnaast zijn wij vanaf 2001 ook een eigen partyservice begonnen. Het vlees is afkomstig van onze eigen boerderij, dus alles is in eigen hand. Het verkopen van een (h)eerlijk stukje vlees voor een betaalbare prijs afkomstig van eigen boerderij in Bentelo, dus alles in eigen hand.",
+      "address": "Suetersweg 19b, 7497MZ Bentelo",
+      "products": ["Rundvlees", "Varkensvlees"],
+      "open": "Zaterdag 9.00-12.00",
+      "lat": 52.223611,
+      "lng": 6.701070
+    },
+    {
+      "name": "Lamsvlees Bossink",
+      "avatar": "",
+      "description": "Bauke Bossink is letterlijk door de wol geverfd; opgegroeid tussen de schapen op de ouderlijke boerderij, waarna hij professionele ervaringen en kennis heeft hij opgedaan in Australië en Nieuw Zeeland en tenslotte zijn studie aan de Agrarische Hogeschool te Dronten met als afstudeerscriptie “Kansverkenning binnen de lamsvleesketen; van fokmateriaal tot consument” Na zijn studie heeft Bauke Bossink zich professioneel toegelegd op het duurzaam en het zo natuurlijk mogelijk houden van schapen en de vermarkting/verwaarden van het lamsvlees van eigen bedrijf.",
+      "address": "Lemselosestraat 5, 7595 ML Weerselo",
+      "products": ["Lamsvlees", "Kalfsvlees", "Appels"],
+      "open": "Bellen voor een afspraak (06 20718664), winkel wordt ingericht",
+      "lat": 52.339506,
+      "lng": 6.870358
+    },
+    {
+      "name": "Zuuver",
+      "avatar": "",
+      "description": "Kippen in het bos, kruipertjes in de bodem. Geef de natuur de ruimte en zij neemt maar ze geeft vooral terug. In een eindeloze kringloop. In haar eigen ritme. Wij geloven daarin. Op ecoboerderij Zuuver streven wij naar een balans in de natuurlijke systemen.",
+      "address": "Alsteedseweg 52, 7481 RZ  Buurse",
+      "products": ["Eieren", "Varkensvlees", "Kalkoen", "Kip", "Kruiden", "Groenten", "Fruit"],
+      "open": "Bellen om te bestellen. Zaterdag van 9.00 tot 15.00 op te halen, behalve de eerste zaterdag van de maand, dan staan we op de streekmarkt in Delden",
+      "lat": 52.133893,
+      "lng": 6.854247
+    },
+    {
+      "name": "Streekmarkt Delden",
+      "avatar": "",
+      "description": "Elke eerste zaterdag van de maand is het extra druk op het idyllische pleintje bij de Oude Blasiuskerk in het centrum van Delden. Van 9.00 tot 15.00 uur is er de Streekmarkt Twente, de oudste en bekendste van de regio. Het plekje roept de sfeer op van een Frans of Spaans stadje waar lokale boertjes hun producten verkopen en waar op de kleine terrasjes de lekkerste gerechtjes worden aangeboden, gemaakt van echte streekproducten.",
+      "address": "Op het pleintje bij de Oude Blasiuskerk in het centrum van Delden",
+      "products": ["Groente", "Vlees", "Fruit", "Bier", "Pasta", "Diversen"],
+      "open": "Elke eerste zaterdag van de maand, van 9.00 tot 15.00",
+      "lat": 52.263111,
+      "lng": 6.711461
+    },
+    {
+      "name": "Boerenmarkt Losser",
+      "avatar": "",
+      "description": "Twente kent heerlijke, oorspronkelijke, lokale producten. Een aantal ondernemers uit Losser heeft de organisatie van de Boerenmarkt op zich genomen, en nu kunt u maandelijks genieten van deze typische markt in Losser. De markt vindt elke laatste zaterdag van de maand plaats.",
+      "address": "op de kruising van Losser aan de Brinkstraat, Torenstraat en Teylerstraat",
+      "products": ["Groente", "Vlees", "Fruit", "Bier", "Pasta", "Diversen"],
+      "open": "Elke laatste zaterdag van de maand, van 10.00 tot 16.00",
+      "lat": 52.262700,
+      "lng": 7.006866 
+    },
+    {
+      "name": "De Oorsprong streekproductenwinkel",
+      "avatar": "",
+      "description": "Nabij het dorpse centrum van Schalkhaar, ligt een oude boerderij met daarin De Oorsprong, het centrum voor ambachtelijke streekproducten. Wij heten graag iedereen welkom: in onze streekproductenwinkel De Oorsprong, met thee- en koffieschenkerij, de bloeiende permacultuurtuin, een kijkje naar een eigen werkruimte, het workshophuis, de maandelijkse streekmarkt, het terras en in het restaurant Pa & Ma.",
+      "address": "Spanjaardsdijk 68, 7433 PX Schalkhaar",
+      "products": ["Groente", "Vlees", "Fruit", "Bier", "Pasta", "Diversen"],
+      "open": "Vrijdag t/m zaterdag van 10:00 - 17:00 uur",
+      "lat": 52.279664,
+      "lng": 6.216272
+    },
+    {
+      "name": "De Oorsprong streekmarkt",
+      "avatar": "",
+      "description": "Nabij het dorpse centrum van Schalkhaar, ligt een oude boerderij met daarin De Oorsprong, het centrum voor ambachtelijke streekproducten. Wij heten graag iedereen welkom: in onze streekproductenwinkel De Oorsprong, met thee- en koffieschenkerij, de bloeiende permacultuurtuin, een kijkje naar een eigen werkruimte, het workshophuis, de maandelijkse streekmarkt, het terras en in het restaurant Pa & Ma.",
+      "address": "Spanjaardsdijk 68, 7433 PX Schalkhaar",
+      "products": ["Groente", "Vlees", "Fruit", "Bier", "Pasta", "Diversen"],
+      "open": "Elke laatste zondag van de maand van 11:00 - 17:00 uur (m.u.v. juli en augustus)",
+      "lat": 52.279517,
+      "lng": 6.216967
+    },
+    {
+      "name": "Melk en Honing",
+      "avatar": "",
+      "description": "In onze boerderijwinkel verkopen wij RauwPower kefir, yoghurt, kefir hangop, yoghurt hangop en jus de lait (melkserum) met mangosap. We bereiden deze producten in onze naastgelegen Raw Milk Company zuivelfabriek. U kunt door de grote ramen zien hoe het productieproces in zijn werk gaat. Verder verkopen we biologische vers- en droogwaren zoals vlees, rauwmelkse kaas, groente, fruit, eieren, thee, chocola, en natuurlijk melk en honing.",
+      "address": "Beuningerstraat 12, 7587LD De Lutte",
+      "products": ["Groente", "Vlees", "Eieren", "Chocolade", "Honing", "Melk", "Yoghurt", "Thee", "Fruit", "Kaas"],
+      "open": "Woensdag 13:00-18:00, Donderdag 13:00-18:00, Vrijdag 13:00-18:00, Zaterdag 9:30-16:00",
+      "lat": 52.321720,
+      "lng": 7.005166
+    },
+    {
+      "name": "Buffalofarm Twente",
+      "avatar": "",
+      "description": "Buffalo Farm Twente waar buffels en koeien opgroeien en gemolken worden. Onze melk? Die verwerken we in dagverse Mozzarella. We begonnen in 2009 met 38 drachtige buffels en inmiddels hebben we een kudde buffels staan. ",
+      "address": "Ahuisweg 1, 7591PL Denekamp",
+      "products": ["Mozerella", "Brie", "Vlees", "Kaas", "Ricotta"],
+      "open": "Donderdag 19:00-21:00 en Zaterdag 10:00-12:30",
+      "lat": 52.401240,
+      "lng": 6.977119
+    },
+    {
+      "name": "Streekwinkel Vertwenz",
+      "avatar": "",
+      "description": "Vertwenz staat voor verwennen, Twente en vers en is ontstaan uit liefde voor Twente, koken, eten, een lekker glas wijn met een stukje kaas en verse kwaliteitsproducten. Samen met onze producenten staan wij voor producten die worden gemaakt met respect voor natuur, dieren en mensen. Producten die met passie en verantwoordelijkheid worden gemaakt en waar een eerlijke prijs voor wordt betaald. Eten dat dicht bij de oorsprong blijft. Wij noemen het: OER ETEN.",
+      "address": "Grotestraat 197A, 7622 GG Borne",
+      "products": ["Aardappel", "Groente", "Fruit", "Kaas", "Jam", "Sap", "Mosterd", "Honing", "Bier", "Pasta", "Thee", "Zuivel", "Kaas", "Vlees"],
+      "open": "Maandag gesloten, Dinsdag 9:30-18:00, Woensdag 9:30-18:00, Donderdag 9:30-18:00, Vrijdag 9:30-20:00, Zaterdag 9.30-17:00",
+      "lat": 52.301267,
+      "lng": 6.755721
+    },
+    {
+      "name": "Streekwinkel de Landgoedwinkel",
+      "avatar": "",
+      "description": "Een winkel waar u heerlijke en pure streekproducten, boeken over het eeuwenoude landgoed en landgoed gerelateerde cadeauartikelen treft. U kunt hier tevens toegangskaarten kopen voor een rondleiding door het huis Singraven en toegangsmuntjes kopen voor het park en het arboretum.",
+      "address": "Molendijk 37, 7591 PT Denekamp",
+      "products": ["Jam", "Snoep", "Pasta", "Thee"],
+      "open": "Openingstijden in het seizoen (1 april 2017 t/m 31 oktober 2017):dinsdag t/m zaterdag 10.30 -17.00 uur, zondag 12.00-17.00 uur. Openingstijden buiten het seizoen (1 november 2016 tot 31 maart 2017): donderdag en zaterdag 10.30-17.00 uur, zondag 12.00-17.00 uur",
+      "lat": 52.374321,
+      "lng": 6.982368
+    },
+    {
+      "name": "Streekwinkel landwinkel Duvelshofke",
+      "avatar": "",
+      "description": "Een gezellige Landwinkel in Oldenzaal, aan de rand van Enschede, met heerlijke producten van onze eigen fruitboerderij en van collega-streekproducenten om cadeau- en kerstpakketten mee samen te stellen. Originele (groeps-)activiteiten voor jong en oud zoals workshops en speurtochten, een zelfpluktuin in zomer en herfst, leuke evenementen zoals open dagen, winterfair en nog veel meer.",
+      "address": "Grotestraat 197A, 7622 GG Borne",
+      "products": ["Jam", "Groente", "Fruit", "Wijn", "Bier", "Brood", "Vlees", "Honing", "Kaas", "Zuivel"],
+      "open": "Openingstijden vanaf 1 juni tot 1 oktober, Maandag:  gesloten, Dinsdag:  9:30-12.15 en 13.15- 17:30, Woensdag  9:30-12.15 en 13.15- 17:30, Donderdag:  9:30-12.15 en 13.15- 17:30, Vrijdag:  9:30-12.15 en 13.15- 17:30, Zaterdag: 9:30-12.15 en 13.15- 16:30, Zondag: meestal gesloten tenzij anders vermeld, in de winter aangepaste tijden",
+      "lat": 52.286441,
+      "lng": 6.936066
+    },
+    {
+      "name": "Wagyu Boerderij",
+      "avatar": "",
+      "description": "Onze boerderij Wagyukoe wordt gerund door de boerenfamilie Nijhof, Wilfried, Yvonne en de kinderen Imco en Romee. In 1989 hebben wij in Delden een oud boerderijtje gekocht en gerenoveerd. Na deze klus geklaard te hebben zijn we in 1990 begonnen met het fokken en mesten van vleesvee. Daarnaast ging Wilfried elke week naar de veemarkt in Doetinchem en soms in Zwolle om dieren aan te kopen of juist te verkopen.",
+      "address": "Langestraat 161, 7491AE Delden",
+      "products": ["Vlees", "Bier"],
+      "open": "maandag t/m donderdag 08:00 - 18:00, zaterdag 09:00 - 17:00, zondag gesloten",
+      "lat": 52.259380,
+      "lng": 6.685412
+    },
+    {
+      "name": "Landgoed Kaamps",
+      "avatar": "",
+      "description": "Het prachtige Landgoed Kaamps heeft zich nu toegelegd op het houden van koeien en de productie van melk van een hoge kwaliteit. Samen met een aantal medewerkers staat de familie Nijland (vader, moeder, 2 zonen, 2 dochters) dag en nacht klaar voor de verzorging van het vee, de werkzaamheden op het land en het maken van kaas.",
+      "address": "Vliegveldstraat 4a, 7561 AT Deurningen",
+      "products": ["Kaas", "Noten", "Jam", "Zuivel"],
+      "open": "maandag t/m donderdag 09:00 - 18:00, vrijdag 09:00 - 21:00, zaterdag 09:00 - 18:00, zondag 11.00 - 18.00",
+      "lat": 52.296863,
+      "lng": 6.837662
+    },
+    {
+      "name": "Streekwinkel Op De Delle",
+      "avatar": "",
+      "description": "In onze landgoedwinkel “Op de Delle” verkopen wij allerlei eigengemaakte streekproducten zoals appelmoes, jam, rabarber, chutney, tutti frutti,  boerenjongens, boerenmeisjes enz.",
+      "address": "Hertmerweg 37, 7626 LV Hertme",
+      "products": ["Kaas", "Chutney", "Jam", "Appelmoes", "Honing"],
+      "open": "N.B.",
+      "lat": 52.326523,
+      "lng": 6.747995
     }
   ]
 }

@@ -2,7 +2,6 @@
   "sellers": [
     {
       "name": "Fruitboerderij Old Bleank",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "In onze gezellige boerderijwinkel aan de Reimerweg 13 in Rossum hebben we elke dag een uitgebreid vers assortiment met producten van onze eigen boerderij voor je. Milieubewust verwerkt en kwaliteitsproducten met een 100% natuurlijke smaak die je onze supermarkten niet tegenkomt.",
       "address": "Reimerweg 13 7596 NP Rossum (Ov)",
@@ -13,7 +12,6 @@
     },
     {
       "name": "Bosbessenkwekerij La Francaise",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Aan de Kwekkeboomweg tussen Enschede en Buurse zijn eind zestiger jaren de eerste struiken aangeplant van de amerikaanse bosbes. Dit is familie van de inheemse bosbes. Inmiddels worden dit blauwe bessen genoemd, destijds nog 'bosbes'. (Vandaar onze naam 'bosbessenkwekerij'.) Midden zeventiger jaren is er een tweede veld met struiken aangeplant aan de Willemsbeekweg in Enschede. Inmiddels is dit het hoofdveld.Bij de teelt worden geen bestrijdingsmiddelen gebruikt, ook niet voor het onkruid. Er wordt beperkt gebruik gemaakt van organische meststoffen. Dit betekent dat de teelt arbeidsintensief is, maar volledig schoon en natuurzuiver.",
       "address": "Willemsbeekweg 5, 7545 PA Enschede",
@@ -24,7 +22,6 @@
     },
     {
       "name": "'T Nije Eskes",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description":"In het jaar 2000 zijn we begonnen met het maken van jam,chutney’s en vruchtensappen voor de verkoop. Dit gebeurde op kleine schaal in eigen keuken. We hebben bramen en frambozenstruiken aangeplant en aardbeienplanten op worteldoek gezet. Later is dit aangevuld met rabarberplanten en verschillende soorten bessenstruiken.",
       "address": "Holsterheurneweg 10, 7588PR Beuningen",
@@ -35,7 +32,6 @@
     },
     {
       "name": "De Greftenhoeve",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "De Greftenhoeve is een blauwe bessenkwekerij, gespecialiseerd in het kweken van blauwe bessen voor de verse consumptie. Het grootste deel van de vers geplukte bessen gaat naar de veiling Fruitmasters in Geldermalsen, een deel is voor de verkoop aan huis.",
       "address": "Greftenweg 16, 7671 PC Vriezenveen",
@@ -46,40 +42,36 @@
     },
     {
       "name": "Kruidenhuis de Vlo",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Kruidenhuis de Vlo is een gecertificeerd gecertificeerd biologisch bedrijf dat zo veel mogelijk biologisch dynamisch werkt aan de zuidpunt van de Holterberg midden tussen Rijssen en Holten.",
       "address": "Drostendijk 2, 7462 SG Rijssen",
       "products": ["Honing", "Bijenwas", "Kruiden", "Groente", "Eieren"],
       "open": "Op Zaterdag middag van 12:00 tot 16:00 uur halen klanten de tevoren per mail bestelde groenten en eieren op uit het kookhuis. Het kruidenhuis is dan open voor iedereen. Wilt u ook op de maillijst om te weten welke groenten er te koop zijn?",
       "lat": 52.298253,
-      "lng": 6.466809
+      "lng": 6.466809 
     },
     {
       "name": "Erve Möllinkwoner",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Erve Möllinkwoner is al meer dan 150 jaar oud. De boerderij werd in 1858 gebouwd op het landgoed Twickel. Vroeger woonde de molenknecht van de nabijgelegen Noordmolen hier, nu is het de plek waar heerlijke boerenkaas en ambachtelijk Twents streekbier wordt gemaakt. De boerderij is ook een prachtige plek voor kaas- en bierproeverij en lunches! ",
       "address": "Noordmolen 3, 7495 VK Ambt Delden",
       "products": ["Kaas", "Bier"],
       "open": "Boerderijwinkel geopend: vrijdag en zaterdag van 13.00 tot 16.00 uur",
       "lat": 52.279430,
-      "lng": 6.713271
+      "lng": 6.713271 
     },
     {
       "name": "Kaasboerderij Keuper",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Kaasboerderij Keuper is een familiebedrijf met veel kennis en liefde voor het vak. Onze ambachtelijke boerenkaas en andere zuivelproducten worden gemaakt van de melk van eigen koeien. Onze boerderij met boerderijwinkel staat in Hengevelde, aan de Goorsestraat 45.",
       "address": "Goorsestraat 45, 7496 AC Hengevelde",
       "products": ["Kaas", "Karnemeld", "Boter", "Yoghurt", "Vruchtenyoghurt"],
       "open": "Donderdag en vrijdag geopend van 9.00 uur tot 18.00 uur zaterdag geopend van 9.00 uur tot 16.00 uur.",
       "lat": 52.204916,
-      "lng": 6.625259
+      "lng": 6.625259  
     },
     {
       "name": "Ijsboerderij 't Loaboerke",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Heeft u na een mooie fiets- of wandelroute in het Twentse landschap zin in een ijsje of koffie gekregen? Kom dan eens bij ons langs, waar ijs op een ambachtelijke manier wordt bereid, met verse melk van onze eigen koeien. Bij mooi weer is een zonnig terras beschikbaar om even lekker uit te rusten. Ook kunt u binnen in de oude boerderij van uw ijs of kopje koffie genieten.",
       "address": "Duivelshofbosweg 2, 7587 PP De Lutte",
@@ -90,7 +82,6 @@
     },
     {
       "name": "De Boderie",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "In 2000 zijn wij een plattelandswinkel begonnen in een gedeelte van de varkensschuur behorende bij ons pluimveebedrijf. ",
       "address": "Markgravenweg 5, 7665 RS Albergen/Harbrinkhoek",
@@ -101,7 +92,6 @@
     },
     {
       "name": "Korenmolden Windlust",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Korenmolen Windlust in het Overijsselse Radewijk (1877) is nog volop in gebruik. Dagelijks malen we meel voor ambachtelijke bakkerijen en thuisbakkers in heel Nederland. En ook particulieren kunnen bij ons terecht. Voor diverse soorten meel, bakmixen voor brood, pannenkoeken, cake en koek én voor ovenvers gebakken brood en banket. Benieuwd? Kom gerust eens kijken bij de molen en in onze winkel. U bent bijzonder welkom",
       "address": "Radewijkerweg 19, 7791 RJ Radewijk",
@@ -112,7 +102,6 @@
     },
     {
       "name": "Keuper Pasta",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Keuper is een nog jong bedrijf waar van kwalitatief hoogwaardige producten op natuurlijke basis (h)eerlijke pasta en deegwaren worden gemaakt. Hierdoor is een nieuw streekproduct (afkomstig uit Twente) ontstaan.",
       "address": "Goorstestraat 45, 7496 AC Hengevelde",
@@ -123,7 +112,6 @@
     },
     {
       "name": "Kruimelboerderij Koelant",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Leuk dat je hier bent! Kruimelboerderij Koelant is de boerderij van Ben, Pauline, Rolf en Petra. Een dikke 80 jaar geleden zette opa Hannes zijn schop in de grond, ontgon de heide en bouwde een huis. Een nieuwe boerderij kreeg plek in het landschap. De veestapel groeide van 2 naar 12 melkkoeien. En daar bleef het bij tot aan de dag van vandaag. De vertrouwde manier van werken, hetzelfde vee, van vader op zoon naar de volgende generatie. Met plezier behouden we de koeinhouderij en het omliggende land, en doen we ons best om mooie, lekkere boerenkazen te maken. Mjummie!",
       "address": "Beuningerstraat 35, 7588 RG Beuningen",
@@ -134,7 +122,6 @@
     },
     {
       "name": "BOERgondisch",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Het huidige bedrijfspand staat op de monumentenlijst en Erve Elferman is een officieel landgoed. De boerderij beschikt over een ambachtelijke slagerij met eigen rijpkamer en een boerderijkeuken waar diverse vleesgerechten worden bereid en verpakt. Het Dinkeldalvlees van Erve Elferman is van onbetwiste topkwaliteit. Precies zoals rundvlees moet zijn; eerlijk en gezond. Op de juiste manier bereid, wordt eten weer authentiek genieten!",
       "address": "Stroothuizerweg 9, 7591 NB  DENEKAMP",
@@ -145,7 +132,6 @@
     },
     {
       "name": "Vleesbedrijf Kleinsman",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Vanaf 1999 zijn wij begonnen met het verkopen van vlees op markten in Twente. Daarnaast zijn wij vanaf 2001 ook een eigen partyservice begonnen. Het vlees is afkomstig van onze eigen boerderij, dus alles is in eigen hand. Het verkopen van een (h)eerlijk stukje vlees voor een betaalbare prijs afkomstig van eigen boerderij in Bentelo, dus alles in eigen hand.",
       "address": "Suetersweg 19b, 7497MZ Bentelo",
@@ -156,7 +142,6 @@
     },
     {
       "name": "Lamsvlees Bossink",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Bauke Bossink is letterlijk door de wol geverfd; opgegroeid tussen de schapen op de ouderlijke boerderij, waarna hij professionele ervaringen en kennis heeft hij opgedaan in Australië en Nieuw Zeeland en tenslotte zijn studie aan de Agrarische Hogeschool te Dronten met als afstudeerscriptie “Kansverkenning binnen de lamsvleesketen; van fokmateriaal tot consument” Na zijn studie heeft Bauke Bossink zich professioneel toegelegd op het duurzaam en het zo natuurlijk mogelijk houden van schapen en de vermarkting/verwaarden van het lamsvlees van eigen bedrijf.",
       "address": "Lemselosestraat 5, 7595 ML Weerselo",
@@ -167,7 +152,6 @@
     },
     {
       "name": "Zuuver",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Kippen in het bos, kruipertjes in de bodem. Geef de natuur de ruimte en zij neemt maar ze geeft vooral terug. In een eindeloze kringloop. In haar eigen ritme. Wij geloven daarin. Op ecoboerderij Zuuver streven wij naar een balans in de natuurlijke systemen.",
       "address": "Alsteedseweg 52, 7481 RZ  Buurse",
@@ -178,7 +162,6 @@
     },
     {
       "name": "Streekmarkt Delden",
-      "type": "Streekmarkt",
       "avatar": "",
       "description": "Elke eerste zaterdag van de maand is het extra druk op het idyllische pleintje bij de Oude Blasiuskerk in het centrum van Delden. Van 9.00 tot 15.00 uur is er de Streekmarkt Twente, de oudste en bekendste van de regio. Het plekje roept de sfeer op van een Frans of Spaans stadje waar lokale boertjes hun producten verkopen en waar op de kleine terrasjes de lekkerste gerechtjes worden aangeboden, gemaakt van echte streekproducten.",
       "address": "Op het pleintje bij de Oude Blasiuskerk in het centrum van Delden",
@@ -189,18 +172,16 @@
     },
     {
       "name": "Boerenmarkt Losser",
-      "type": "Streekmarkt",
       "avatar": "",
       "description": "Twente kent heerlijke, oorspronkelijke, lokale producten. Een aantal ondernemers uit Losser heeft de organisatie van de Boerenmarkt op zich genomen, en nu kunt u maandelijks genieten van deze typische markt in Losser. De markt vindt elke laatste zaterdag van de maand plaats.",
       "address": "op de kruising van Losser aan de Brinkstraat, Torenstraat en Teylerstraat",
       "products": ["Groente", "Vlees", "Fruit", "Bier", "Pasta", "Diversen"],
       "open": "Elke laatste zaterdag van de maand, van 10.00 tot 16.00",
       "lat": 52.262700,
-      "lng": 7.006866
+      "lng": 7.006866 
     },
     {
       "name": "De Oorsprong streekproductenwinkel",
-      "type": "Streekwinkel",
       "avatar": "",
       "description": "Nabij het dorpse centrum van Schalkhaar, ligt een oude boerderij met daarin De Oorsprong, het centrum voor ambachtelijke streekproducten. Wij heten graag iedereen welkom: in onze streekproductenwinkel De Oorsprong, met thee- en koffieschenkerij, de bloeiende permacultuurtuin, een kijkje naar een eigen werkruimte, het workshophuis, de maandelijkse streekmarkt, het terras en in het restaurant Pa & Ma.",
       "address": "Spanjaardsdijk 68, 7433 PX Schalkhaar",
@@ -211,7 +192,6 @@
     },
     {
       "name": "De Oorsprong streekmarkt",
-      "type": "Streekmarkt",
       "avatar": "",
       "description": "Nabij het dorpse centrum van Schalkhaar, ligt een oude boerderij met daarin De Oorsprong, het centrum voor ambachtelijke streekproducten. Wij heten graag iedereen welkom: in onze streekproductenwinkel De Oorsprong, met thee- en koffieschenkerij, de bloeiende permacultuurtuin, een kijkje naar een eigen werkruimte, het workshophuis, de maandelijkse streekmarkt, het terras en in het restaurant Pa & Ma.",
       "address": "Spanjaardsdijk 68, 7433 PX Schalkhaar",
@@ -222,7 +202,6 @@
     },
     {
       "name": "Melk en Honing",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "In onze boerderijwinkel verkopen wij RauwPower kefir, yoghurt, kefir hangop, yoghurt hangop en jus de lait (melkserum) met mangosap. We bereiden deze producten in onze naastgelegen Raw Milk Company zuivelfabriek. U kunt door de grote ramen zien hoe het productieproces in zijn werk gaat. Verder verkopen we biologische vers- en droogwaren zoals vlees, rauwmelkse kaas, groente, fruit, eieren, thee, chocola, en natuurlijk melk en honing.",
       "address": "Beuningerstraat 12, 7587LD De Lutte",
@@ -233,7 +212,6 @@
     },
     {
       "name": "Buffalofarm Twente",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Buffalo Farm Twente waar buffels en koeien opgroeien en gemolken worden. Onze melk? Die verwerken we in dagverse Mozzarella. We begonnen in 2009 met 38 drachtige buffels en inmiddels hebben we een kudde buffels staan. ",
       "address": "Ahuisweg 1, 7591PL Denekamp",
@@ -244,7 +222,6 @@
     },
     {
       "name": "Streekwinkel Vertwenz",
-      "type": "Streekwinkel",
       "avatar": "",
       "description": "Vertwenz staat voor verwennen, Twente en vers en is ontstaan uit liefde voor Twente, koken, eten, een lekker glas wijn met een stukje kaas en verse kwaliteitsproducten. Samen met onze producenten staan wij voor producten die worden gemaakt met respect voor natuur, dieren en mensen. Producten die met passie en verantwoordelijkheid worden gemaakt en waar een eerlijke prijs voor wordt betaald. Eten dat dicht bij de oorsprong blijft. Wij noemen het: OER ETEN.",
       "address": "Grotestraat 197A, 7622 GG Borne",
@@ -255,7 +232,6 @@
     },
     {
       "name": "Streekwinkel de Landgoedwinkel",
-      "type": "Streekwinkel",
       "avatar": "",
       "description": "Een winkel waar u heerlijke en pure streekproducten, boeken over het eeuwenoude landgoed en landgoed gerelateerde cadeauartikelen treft. U kunt hier tevens toegangskaarten kopen voor een rondleiding door het huis Singraven en toegangsmuntjes kopen voor het park en het arboretum.",
       "address": "Molendijk 37, 7591 PT Denekamp",
@@ -266,7 +242,6 @@
     },
     {
       "name": "Streekwinkel landwinkel Duvelshofke",
-      "type": "Strekwinkel",
       "avatar": "",
       "description": "Een gezellige Landwinkel in Oldenzaal, aan de rand van Enschede, met heerlijke producten van onze eigen fruitboerderij en van collega-streekproducenten om cadeau- en kerstpakketten mee samen te stellen. Originele (groeps-)activiteiten voor jong en oud zoals workshops en speurtochten, een zelfpluktuin in zomer en herfst, leuke evenementen zoals open dagen, winterfair en nog veel meer.",
       "address": "Grotestraat 197A, 7622 GG Borne",
@@ -277,7 +252,6 @@
     },
     {
       "name": "Wagyu Boerderij",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Onze boerderij Wagyukoe wordt gerund door de boerenfamilie Nijhof, Wilfried, Yvonne en de kinderen Imco en Romee. In 1989 hebben wij in Delden een oud boerderijtje gekocht en gerenoveerd. Na deze klus geklaard te hebben zijn we in 1990 begonnen met het fokken en mesten van vleesvee. Daarnaast ging Wilfried elke week naar de veemarkt in Doetinchem en soms in Zwolle om dieren aan te kopen of juist te verkopen.",
       "address": "Langestraat 161, 7491AE Delden",
@@ -288,7 +262,6 @@
     },
     {
       "name": "Landgoed Kaamps",
-      "type": "Boerderijwinkel",
       "avatar": "",
       "description": "Het prachtige Landgoed Kaamps heeft zich nu toegelegd op het houden van koeien en de productie van melk van een hoge kwaliteit. Samen met een aantal medewerkers staat de familie Nijland (vader, moeder, 2 zonen, 2 dochters) dag en nacht klaar voor de verzorging van het vee, de werkzaamheden op het land en het maken van kaas.",
       "address": "Vliegveldstraat 4a, 7561 AT Deurningen",
@@ -299,7 +272,6 @@
     },
     {
       "name": "Streekwinkel Op De Delle",
-      "type": "Streekwinkel",
       "avatar": "",
       "description": "In onze landgoedwinkel “Op de Delle” verkopen wij allerlei eigengemaakte streekproducten zoals appelmoes, jam, rabarber, chutney, tutti frutti,  boerenjongens, boerenmeisjes enz.",
       "address": "Hertmerweg 37, 7626 LV Hertme",
@@ -310,3 +282,4 @@
     }
   ]
 }
+      

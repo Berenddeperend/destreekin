@@ -1,0 +1,15 @@
+<h3>Unieke producten: <strong>({{products?.length}})</strong>:</h3>
+<ul>
+    <li *ngFor="let product of products">
+        {{product}} <strong>({{inventory[product]}})</strong>
+    </li>
+</ul>
+
+
+<h3>Verkopers: <strong>({{sellerNames?.length}})</strong>: </h3>
+
+<ul>
+    <li *ngFor="let seller of sellerNames">
+        {{seller}}
+    </li>
+</ul>

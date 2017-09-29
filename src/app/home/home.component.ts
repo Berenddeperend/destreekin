@@ -6,6 +6,7 @@ import { HttpClient } from "@angular/common/http";
 import { LatLngBounds, LatLngBoundsLiteral } from '@agm/core/map-types';
 import { Router } from "@angular/router";
 import { Location } from '@angular/common';
+import { uniq, flattenDeep } from 'lodash';
 
 
 @Component({
@@ -36,24 +37,35 @@ export class HomeComponent implements OnInit {
       private http: HttpClient,
       private router: Router,
       private location: Location
-  ) {
-  }
+  ) {}
 
   ngOnInit() {
+
+
     // this.setCurrentPosition();
 
     console.log('ngoninit of HomeComponent');
 
-      this.http.get('assets/data/sellers.json').subscribe(data => {
-        this.sellers = data;
+    this.http.get('assets/data/maps-styling.json').subscribe( data => {
+      this.mapsStyling = data;
+    });
 
-        // this.fitBounds;
+    this.http.get('assets/data/sellers.json').subscribe(data => {
+      this.sellers = data;
 
-        for(let seller of this.sellers.sellers) {
-          // console.log(seller['lat']);
-        }
+      // this.fitBounds;
 
-        // console.log(this.sellers.sellers);
+
+      let products = [];
+
+      for(let seller of this.sellers.sellers) {
+        products.push(seller.products);
+      }
+
+      let uniqueProducts = uniq(flattenDeep(products));
+
+      console.log(uniqueProducts.sort());
+
     });
 
 
@@ -64,20 +76,6 @@ export class HomeComponent implements OnInit {
     ];
 
 
-    this.http.get('assets/data/maps-styling.json').subscribe( data => {
-      this.mapsStyling = data;
-
-
-
-      //below is stuff that i should use for the sellers.
-      // let mapStyling = data;
-      // console.log(mapStyling);
-	  //
-      // for(let stylingItem in mapStyling) {
-      //   console.log(mapStyling[stylingItem].featureType);
-      // }
-
-    });
   }
 
 

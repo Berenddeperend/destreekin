@@ -18,6 +18,8 @@ import { AgmCoreModule } from '@agm/core';
 import { MdButtonModule } from "@angular/material";
 import { MdSidenavModule } from '@angular/material';
 import { MdDialogModule } from '@angular/material';
+import { MdSelectModule } from '@angular/material';
+
 
 //routing
 import { routing } from './app.routing';
@@ -45,6 +47,7 @@ import { SellerDetailComponent } from './seller-detail/seller-detail.component';
     MdButtonModule,
     MdSidenavModule,
     MdDialogModule,
+    MdSelectModule,
     // AngularFireModule.initializeApp(environment.firebase),
     // AngularFireDatabaseModule,
     AgmCoreModule.forRoot({

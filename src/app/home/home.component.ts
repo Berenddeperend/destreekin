@@ -28,6 +28,8 @@ export class HomeComponent implements OnInit {
   // };
 
   sellers;
+  categories;
+  mapsStyling;
 
   constructor(
       public dialog: MdDialog,
@@ -54,6 +56,28 @@ export class HomeComponent implements OnInit {
         // console.log(this.sellers.sellers);
     });
 
+
+    this.categories = [
+      {value: 'steak-0', viewValue: 'Steak'},
+      {value: 'pizza-1', viewValue: 'Pizza'},
+      {value: 'tacos-2', viewValue: 'Tacos'}
+    ];
+
+
+    this.http.get('assets/data/maps-styling.json').subscribe( data => {
+      this.mapsStyling = data;
+
+
+
+      //below is stuff that i should use for the sellers.
+      // let mapStyling = data;
+      // console.log(mapStyling);
+	  //
+      // for(let stylingItem in mapStyling) {
+      //   console.log(mapStyling[stylingItem].featureType);
+      // }
+
+    });
   }
 
 
@@ -85,4 +109,5 @@ export class HomeComponent implements OnInit {
       });
     }
   }
+
 }

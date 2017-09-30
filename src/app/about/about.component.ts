@@ -31,7 +31,7 @@ export class AboutComponent implements OnInit {
         "groenten": 2
       };
 
-      for(let seller of this.sellers.sellers) {
+      for(let seller of this.sellers) {
         products.push(seller.products);
         sellerNames.push(seller.name);
       }

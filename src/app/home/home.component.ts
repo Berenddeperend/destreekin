@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
 
       let products = [];
 
-      for(let seller of this.sellers.sellers) {
+      for(let seller of this.sellers) {
         products.push(seller.products);
       }
 

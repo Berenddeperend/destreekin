@@ -21,13 +21,11 @@
         [styles]="mapsStyling"
         [gestureHandling]="'greedy'">
         <agm-marker
-            *ngFor="let marker of sellers?.sellers"
+            *ngFor="let marker of sellers"
             [latitude]="marker.lat"
             [longitude]="marker.lng"
             (markerClick)="openDialog(marker)">
         </agm-marker>
         <!--[iconUrl]="'https://image.freepik.com/free-icon/map-marker_318-49860.jpg'"-->
-
     </agm-map>
-
 </div>

@@ -10,6 +10,13 @@ html, body {
     /*font-family: sans-serif !important;*/
 }
 
+.mat-button {
+    font-family: 'Zilla Slab', serif;
+}
+
+.mat-dialog-container {
+    max-width: 640px !important;
+}
 
 * {
     box-sizing: border-box;

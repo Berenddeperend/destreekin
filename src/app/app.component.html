@@ -2,14 +2,15 @@
   <md-sidenav #sidenav mode="over">
     <!-- sidenav content -->
     <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/home']">Home</a>
-    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/about']">About</a>
+    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/about']">Over</a>
   </md-sidenav>
 
   <!-- primary content -->
 
 
   <div class="topbar">
-    <button md-button class="open-nav-button" (click)="sidenav.toggle()"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
+    <span class="logo">De Streek In</span>
+    <button md-button class="open-nav-button" (click)="sidenav.toggle()"><i class="fa fa-bars" aria-hidden="true"></i></button>
   </div>
 
   <router-outlet></router-outlet>

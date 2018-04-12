@@ -10,17 +10,26 @@ md-sidenav-container {
 }
 
 .topbar {
-    background: #8EA478;
+    background: #8bc34a;
+    // background: #757971;
     padding: 6px 20px;
-    text-align: right;
+    // text-align: right;
     height: 50px;
-    border-bottom: 3px solid #6D8655;
+    font-family: 'Zilla Slab', serif;
+    border-bottom: 3px solid #5a9216;
 
+    .logo {
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 22px;
+    }
 }
+
+
 
 .sidebar-item {
     display: block;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
     padding: 20px;
     border-bottom: 1px solid gray;
     text-decoration: none;
@@ -36,6 +45,8 @@ md-sidenav-container {
 
 .open-nav-button {
     color: white;
+    float: right;
+    font-size: 22px;
 
     .fa {
         position: relative;

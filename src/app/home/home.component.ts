@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit {
   sellers;
   categories;
   mapsStyling;
+  markerImg = "assets/img/marker.png";
 
   constructor(
       public dialog: MdDialog,
@@ -52,20 +53,13 @@ export class HomeComponent implements OnInit {
 
     this.http.get('assets/data/sellers.json').subscribe(data => {
       this.sellers = data;
-
       // this.fitBounds;
-
-
       let products = [];
-
       for(let seller of this.sellers) {
         products.push(seller.products);
       }
-
       let uniqueProducts = uniq(flattenDeep(products));
-
-      console.log(uniqueProducts.sort());
-
+      // console.log(uniqueProducts.sort());
     });
 
 
@@ -74,10 +68,11 @@ export class HomeComponent implements OnInit {
       {value: 'pizza-1', viewValue: 'Pizza'},
       {value: 'tacos-2', viewValue: 'Tacos'}
     ];
-
-
   }
 
+  getMarkerIcon(marker) {
+    return 'assets/img/' + marker.type.toLowerCase() + '.svg';
+  }
 
   openDialog(marker) {
 

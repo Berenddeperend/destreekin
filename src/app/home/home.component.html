@@ -19,13 +19,20 @@
         [disableDefaultUI]="true"
         [streetViewControl]="false"
         [styles]="mapsStyling"
-        [gestureHandling]="'greedy'">
+        gestureHandling="greedy">
+        <!-- <agm-marker
+            *ngFor="let marker of sellers"
+            [iconUrl]="getMarkerIcon(marker)"
+            [latitude]="marker.lat"
+            [longitude]="marker.lng"
+            (markerClick)="openDialog(marker)">
+        </agm-marker>  -->
         <agm-marker
             *ngFor="let marker of sellers"
             [latitude]="marker.lat"
             [longitude]="marker.lng"
             (markerClick)="openDialog(marker)">
-        </agm-marker>
+        </agm-marker> 
         <!--[iconUrl]="'https://image.freepik.com/free-icon/map-marker_318-49860.jpg'"-->
     </agm-map>
 </div>

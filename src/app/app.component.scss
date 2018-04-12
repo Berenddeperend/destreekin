@@ -11,16 +11,21 @@ md-sidenav-container {
 
 
 .topbar {
-    background: #8bc34a;
-    // background: #757971;
+    background-color: #9ac18e;
+    // background-color: #8dd278;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/funky-lines.png');
+    // background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/cartographer.png");
+    background-blend-mode: multiply;
+
+
     padding: 6px 20px;
-    // text-align: right;
     height: 50px;
     font-family: 'Zilla Slab', serif;
-    border-bottom: 3px solid #5a9216;
+    border-bottom: 3px solid #7da453;
 
     .logo {
         color: white;
+        text-shadow: 0 2px 0px #7da453;
         position: relative;
         top: 5px;
         font-size: 22px;
@@ -54,6 +59,7 @@ md-sidenav-container {
 .open-nav-button {
     color: white;
     float: right;
+    text-shadow: 0 2px 0px #7da453;
     font-size: 22px;
 
     .fa {

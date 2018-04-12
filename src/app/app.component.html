@@ -1,8 +1,9 @@
 <md-sidenav-container>
   <md-sidenav #sidenav mode="over">
     <!-- sidenav content -->
-    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/home']">Home</a>
-    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/about']">Over</a>
+    <p class="menu-heading">Menu</p>
+    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/home']">Kaart</a>
+    <a class="sidebar-item" (click)="sidenav.toggle()" [routerLink]="['/about']">Over 'De Streek In'</a>
   </md-sidenav>
 
   <!-- primary content -->

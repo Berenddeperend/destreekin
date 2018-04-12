@@ -1,16 +1,5 @@
 <div class="home-container">
 
-    <!--<form>-->
-        <!--<md-select placeholder="Favorite food" [(ngModel)]="selectedValue" name="food">-->
-            <!--<md-option *ngFor="let food of categories" [value]="food.value">-->
-                <!--{{food.viewValue}}-->
-            <!--</md-option>-->
-        <!--</md-select>-->
-
-        <!--<p> Selected value: {{selectedValue}} </p>-->
-    <!--</form>-->
-
-
     <!--Theme used: "Nature" - https://snazzymaps.com/style/47/nature-->
     <agm-map
         [latitude]="viewLat"
@@ -33,6 +22,5 @@
             [longitude]="marker.lng"
             (markerClick)="openDialog(marker)">
         </agm-marker> 
-        <!--[iconUrl]="'https://image.freepik.com/free-icon/map-marker_318-49860.jpg'"-->
     </agm-map>
 </div>

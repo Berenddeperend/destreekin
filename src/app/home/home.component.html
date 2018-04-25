@@ -1,26 +1,25 @@
 <div class="home-container">
 
     <!--Theme used: "Nature" - https://snazzymaps.com/style/47/nature-->
-    <agm-map
+    <!-- <agm-map
         [latitude]="viewLat"
         [longitude]="viewLng"
         [zoom]="zoom"
         [disableDefaultUI]="true"
         [streetViewControl]="false"
         [styles]="mapsStyling"
-        gestureHandling="greedy">
-        <!-- <agm-marker
-            *ngFor="let marker of sellers"
-            [iconUrl]="getMarkerIcon(marker)"
-            [latitude]="marker.lat"
-            [longitude]="marker.lng"
-            (markerClick)="openDialog(marker)">
-        </agm-marker>  -->
+        gestureHandling="greedy"
+        fit="true"
+        >
         <agm-marker
             *ngFor="let marker of sellers"
             [latitude]="marker.lat"
             [longitude]="marker.lng"
             (markerClick)="openDialog(marker)">
-        </agm-marker> 
-    </agm-map>
+        </agm-marker>  
+    </agm-map> -->
+
+    <div id="map">
+
+    </div>
 </div>

@@ -15,7 +15,10 @@
 
 }
 
-.sebm-google-map-container {
+
+
+.sebm-google-map-container,
+#map {
   //position: fixed;
   width: 100%;
   height: calc(100vh - 50px);

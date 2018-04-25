@@ -24,6 +24,8 @@ li {
 
 .mat-dialog-container {
     max-width: 640px !important;
+    width: calc(100% - 20px) !important;
+    margin: 0 auto;
 }
 
 * {

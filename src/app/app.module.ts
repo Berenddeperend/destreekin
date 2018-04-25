@@ -9,11 +9,6 @@ import { HttpClientModule } from '@angular/common/http';
 //angular google maps
 import { AgmCoreModule } from '@agm/core';
 
-//firebase
-// import { AngularFireModule } from 'angularfire2';
-// import { AngularFireDatabaseModule } from 'angularfire2/database';
-// import { environment } from '../environments/environment';
-
 //material design
 import { MdButtonModule } from "@angular/material";
 import { MdSidenavModule } from '@angular/material';
@@ -48,8 +43,6 @@ import { SellerDetailComponent } from './seller-detail/seller-detail.component';
     MdSidenavModule,
     MdDialogModule,
     MdSelectModule,
-    // AngularFireModule.initializeApp(environment.firebase),
-    // AngularFireDatabaseModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyC5n-8onwJ_v6dNrT912P7XS_Eq0AbXVqg'
     })

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 import { MdDialog, MdDialogRef } from '@angular/material';
 import { SellerDetailComponent } from "../seller-detail/seller-detail.component";
 import { HttpClient } from "@angular/common/http";
@@ -33,7 +33,8 @@ export class HomeComponent implements OnInit {
       public dialog: MdDialog,
       private http: HttpClient,
       private router: Router,
-      private location: Location
+      private location: Location,
+      private zone: NgZone
   ) {}
 
   ngOnInit() {
@@ -44,6 +45,7 @@ export class HomeComponent implements OnInit {
 
       this.map = new google.maps.Map(document.querySelector('#map'), {
         zoom: 4,
+        disableDefaultUI: true,
         styles: [
           {
             "featureType": "landscape",
@@ -209,10 +211,12 @@ export class HomeComponent implements OnInit {
 
     this.location.go('/verkoper', spacesToDashes(marker.name));
 
-    let dialogRef = this.dialog.open(SellerDetailComponent, {
+    this.zone.run(()=> {
+      let dialogRef = this.dialog.open(SellerDetailComponent, {
         data: marker,
         panelClass: 'berend'
-    });
+      });
+    })
   }
 
   private setCurrentPosition() {

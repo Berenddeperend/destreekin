@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   viewLng: number = 6.828003;
   zoom = 9;
 
-  
+
 
   sellers;
   categories;
@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
-    // çGoogleMapsLoader 
+    // çGoogleMapsLoader
     GoogleMapsLoader.KEY = 'AIzaSyC5n-8onwJ_v6dNrT912P7XS_Eq0AbXVqg';
     GoogleMapsLoader.load((google) => {
 
@@ -155,7 +155,7 @@ export class HomeComponent implements OnInit {
       this.http.get('assets/data/maps-styling.json').subscribe( data => {
         this.mapsStyling = data;
       });
-  
+
       this.http.get('assets/data/sellers.json').subscribe(data => {
         this.sellers = data;
         // this.fitBounds;
@@ -164,20 +164,21 @@ export class HomeComponent implements OnInit {
           products.push(seller.products);
         }
         let uniqueProducts = uniq(flattenDeep(products));
-  
+
         this.sellers.map(seller => {
           let marker = new google.maps.Marker({
             position: {lat: seller.lat, lng: seller.lng},
+            icon: this.createMarkerObj(seller, google),
             map: this.map
           });
-          
+
           marker.addListener('click', () => {
             this.openDialog(seller);
           })
         });
 
         let bounds:LatLngBounds = new google.maps.LatLngBounds();
-    
+
         for(let seller of this.sellers){
           bounds.extend(new google.maps.LatLng(seller.lat, seller.lng));
         }
@@ -186,19 +187,22 @@ export class HomeComponent implements OnInit {
 
       });
     });
-    
+
 
     // let mapsClient = new google.createClient();
     // console.log('mapsClient: ', mapsClient);
 
     // this.findStoresBounds()
-    // this.setCurrentPosition(); 
+    // this.setCurrentPosition();
 
 
   }
 
-  getMarkerIcon(marker) {
-    return 'assets/img/' + marker.type.toLowerCase() + '.svg';
+  createMarkerObj(marker, google) {
+    return {
+      url: 'assets/img/icon-' + marker.type.toLowerCase() + '.svg',
+      // size: new google.maps.Size(32, 38),
+    }
   }
 
   openDialog(marker) {
@@ -241,7 +245,7 @@ export class HomeComponent implements OnInit {
 
   // public findStoresBounds(){
   //     let bounds:LatLngBounds = new google.maps.LatLngBounds();
-      
+
   //     console.log(bounds)
 
 
